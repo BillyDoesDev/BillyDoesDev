@@ -15,7 +15,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           template: classic
           base: header, activity
-          plugin_gists: yes
+#           plugin_gists: yes
           plugin_fortune: yes
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
