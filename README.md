@@ -8,4 +8,4 @@ Python3 Spaghetti? Why not!
 ```python
 print("".join([chr(sum([(dict(zip([str(_) if _ < 10 else chr(_+87)for _ in range(16)],[_ for _ in range(16)]))[c]<<_<<_<<_<<_)for _, c in enumerate("4834434b5221"[i:i+2][::-1])]))for i in range(0,len("4834434b5221"),2)]))
 ```
-![image](https://user-images.githubusercontent.com/64155209/155879101-63b6a7f3-2d13-4f7f-b97c-5b0b0442ba70.png)
+![image](https://user-images.githubusercontent.com/64155209/155879172-e1b4d198-e96b-4136-897c-6e747242412d.png)
