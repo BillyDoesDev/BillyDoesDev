@@ -1,7 +1,7 @@
 [//]: # (https://github.com/lowlighter/metrics/blob/master/.github/readme/partials/documentation/setup/action.md)
 [//]: # (yeah, go give it a read.. lul)
 
-![Metrics](/github-metrics.svg)
+<img align="center" src="/github-metrics.svg" alt="Metrics" width="100%">
 ---
 Python3 Spaghetti? Why not!
 ```python
