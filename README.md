@@ -1,7 +1,7 @@
 [//]: # (https://github.com/lowlighter/metrics/blob/master/.github/readme/partials/documentation/setup/action.md)
 [//]: # (yeah, go give it a read.. lul)
 
-<img align="right" src="./assets/waddles.gif" alt="waddles" width="100%" />
+<img align="right" src="./assets/waddles.gif" alt="waddles" />
 
 ![Metrics](/github-metrics.svg)
 
