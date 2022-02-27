@@ -5,7 +5,7 @@
 
 ![Metrics](/github-metrics.svg)
 
-<img align="right" src="./assets/1337.png" alt="1337" width="12%" />
+<img align="right" src="./assets/yes.png" alt="1337" />
 
 Python3 Spaghetti? Why not!
 ```python
