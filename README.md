@@ -1,8 +1,8 @@
 [//]: # (https://github.com/lowlighter/metrics/blob/master/.github/readme/partials/documentation/setup/action.md)
 [//]: # (yeah, go give it a read.. lul)
 
-<img align="center" src="/github-metrics.svg" alt="Metrics" width="400">
-</br>
+<img align="center" src="/github-metrics.svg" alt="Metrics" width="70%" />
+
 ---
 Python3 Spaghetti? Why not!
 ```python
