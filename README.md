@@ -3,7 +3,7 @@
 
 ![Metrics](/github-metrics.svg)
 
-### Weird Flex
+#### Weird Flex:
 ```python
 K=dict(zip([str(_) if _ < 10 else chr(_+87)for _ in range(16)],[_ for _ in range(16)]));print("".join([chr(sum([(K[c]<<_<<_<<_<<_)for _, c in enumerate("4834434b5221"[i:i+2][::-1])]))for i in range(0,len("4834434b5221"),2)]))
 ```
