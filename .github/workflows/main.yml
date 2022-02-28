@@ -14,9 +14,10 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           template: classic
-          base: header, activity, community
+          base: repositories
+#           base: header, activity, community
 #           base: header, repositories
-#           plugin_gists: yes
+          plugin_gists: yes
           plugin_fortune: yes
           plugin_languages: yes
           plugin_lines: yes
