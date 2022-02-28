@@ -2,7 +2,7 @@
 [//]: # (yeah, go give it a read.. lul)
 
 <img align="right" src="./assets/waddles.gif" alt="waddles" />
-<img align="right" src="https://user-images.githubusercontent.com/64155209/155964182-4b40c427-f358-4ca1-92ef-501ead6fca31.png" alt="intro" />
+<img align="center" src="https://user-images.githubusercontent.com/64155209/155964182-4b40c427-f358-4ca1-92ef-501ead6fca31.png" alt="intro" />
 
 ![Metrics](/github-metrics.svg)
 
