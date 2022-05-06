@@ -2,7 +2,7 @@
 [//]: # (yeah, go give it a read.. lul)
 
 <img align="right" src="./assets/waddles.gif" alt="waddles" />
-<img align="center" src="./assets/intro.png" alt="intro" />
+<img align="center" src="./assets/billydoesdev.png" alt="intro" />
 
 ![Metrics](/github-metrics.svg)
 
