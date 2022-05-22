@@ -69,6 +69,9 @@
             const a = new TypeIt("#tools", {
                 speed: 90,
                 waitUntilVisible: true,
+                afterStep: function (instance) {
+                instance.getElement().style.color = getRandomColor();
+            },
                 // afterComplete: function (instance) {
                 //     instance.destroy();
                 // }
@@ -114,7 +117,7 @@
     </p>
 
     <footer>
-        &lang;/&rang; with ♡<br>
+        &lang;/&rang; with ♥<br>
         &copy; BillyDoesDev 2022 | All rights reserved.
     </footer>
 
