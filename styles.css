@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade{
+    animation: fadeIn 5s;
+}
+
+html {
+    background: #001220;
+}
+
+a:link{
+    color: #7aa2f7;
+}
+a:visited{
+    color: rgba(240, 248, 255, 0);
+}
+a:hover{
+    color: #7dcfff;
+}
+a.icon{
+    color: rgba(240, 248, 255, 0);
+}
+
+.avatar {
+    
+    display: inline-block;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border-radius: 50% !important;
+    max-width: 25%;
+    padding-bottom: 2%;    
+}
+
+h1 {
+    color: rgb(221, 19, 137);
+    font-family: 'Press Start 2P', cursive;
+    font-size: xx-large;
+    padding-top: 5%;
+    text-align: center;
+    animation: fadeIn 1s;
+}
+
+section {
+    color: aliceblue;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    font-size: large;
+    position: relative;
+    display: grid;
+    place-items: center;
+    min-height: 400px;
+    padding: 10vh 5vw;
+}
+
+.spacer {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section1 {
+    padding-top: 0%;
+    padding-bottom: 0%;
+    background: #24283b;
+    animation: fadeIn 0s;
+}
+.section2 {
+    padding-top: 0%;
+    animation: fadeIn 5s;
+}
+.wave1-a {
+    aspect-ratio: 960/200;
+    background-image: url("./assets/wave1-a.svg");
+    z-index: -1;
+}
+.wave1-b {
+    aspect-ratio: 960/200;
+    background-image: url("./assets/wave1-b.svg");
+    z-index: -1;
+}
+.wave-end {
+    aspect-ratio: 960/200;
+    background-image: url("./assets/wave-end.svg");
+    z-index: -1;
+}
+
+.devicons{
+    color: rgba(240, 248, 255, 0.288);
+    font-size: 270%;
+    transition: 0.3s;
+}
+.devicons:hover {
+    color: #e34c67;
+}
+
+.socials{
+    right: 0;
+    position: fixed;
+    top: 50%;
+    padding-right: 2.4rem;
+    max-width: .5%;
+}
+
+h2{
+    color: rgb(221, 19, 137);
+    font-family: 'Press Start 2P', cursive;
+    font-size: large;
+    padding-top: 5%;
+    text-align: center;
+    animation: fadeIn 1s;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 5vh;
+}
+p{
+    color: aliceblue;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    font-size: large;
+    animation: fadeIn 1s;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+footer {
+    padding: 0%;
+    color: aliceblue;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    font-size: small;
+    opacity: 50%;
+    padding-top: 5vh;
+  }

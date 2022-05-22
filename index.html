@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:image"
+        content="https://cdn.discordapp.com/attachments/950691795493351434/967262018744762378/huh.gif">
+    <meta property="og:type" content="video.other">
+    <meta property="og:video:url"
+        content="https://cdn.discordapp.com/attachments/758939541641363458/977836981780377650/rick.mp4">
+    <meta property="og:video:height" content="202">
+    <meta property="og:video:width" content="250">
+
+
+    <title>BillyDoesDev</title>
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/64155209?v=4" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/typeit@8.5.4/dist/index.umd.js"></script>
+    <link href='//cdn.jsdelivr.net/npm/devicons@1.8.0/css/devicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <h1 id="greeting"></h1>
+    <script>
+        let colors = ["#fa7268", "#ef5f67", "#e34c67", "#d53867", "#c62368"]
+        function getRandomColor() {
+            return colors[Math.floor(Math.random() * colors.length)];
+        }
+        const instance = new TypeIt("#greeting", {
+            speed: 100,
+            waitUntilVisible: true,
+            afterStep: function (instance) {
+                instance.getElement().style.color = getRandomColor();
+            },
+        }).type("Heelo", { delay: 300 })
+            .pause(300)
+            .move(-3)
+            .delete(1)
+            .move(1)
+            .type("l")
+            .move(null, { to: "END" })
+            .type(", worbd")
+            .pause(300)
+            .delete(2)
+            .type("ld")
+            .pause(200)
+            .type("!")
+            .go();
+    </script>
+
+    <section class="fade">
+        <img style="height:auto;" alt="pfp" class="avatar" src="https://avatars.githubusercontent.com/u/64155209?v=4">
+        <p>Hello there! Kown by my online alias as Billy, I am an 18 year old highschooler who programs stuff as a
+            hobby. I have been doing this for the past 4 years and have intermediate skills in Python3, Java, and Web
+            Development.<br><br>
+            Most of the stuff you'll find on my Github are usually small shell scripts to automate the boring stuff or
+            CLI apps and games. <br><br>
+            This website runs on icebergs.
+        </p>
+    </section>
+
+    <div class="spacer wave1-a"></div>
+    <section class="section1">
+        <h1 id="tools" class="fade"></h1>
+        <script>
+            const a = new TypeIt("#tools", {
+                speed: 90,
+                waitUntilVisible: true,
+                // afterComplete: function (instance) {
+                //     instance.destroy();
+                // }
+            }).type("Stuuff", { delay: 300 })
+                .pause(300)
+                .move(-3)
+                .delete(1)
+                .move(1)
+                .move(null, { to: "END" })
+                .type(" that i ")
+                .pause(300)
+                .delete(2)
+                .type("I")
+                .pause(200)
+                .type(" use")
+                .go();
+        </script>
+        <p>
+            <span class="devicons devicons-git" title="git"></span>
+            <span class="devicons devicons-github_badge" title="GutHib"></span>
+            <span class="devicons devicons-vim" title="Vim"></span>
+            <span class="devicons devicons-eclipse" title="Eclipse"></span>
+            <span class="devicons devicons-java" title="Java"></span>
+            <span class="devicons devicons-python" title="Python3"></span>
+            <span class="devicons devicons-javascript_badge" title="JavaScript"></span>
+            <span class="devicons devicons-html5" title="HTML5"></span>
+            <span class="devicons devicons-heroku" title="Heroku"></span>
+            <span class="devicons devicons-linux" title="Chad Penguin"></span>
+            <span class="devicons devicons-terminal_badge" title="Shell"></span>
+            <span class="devicons devicons-mysql" title="MySQL"></span>
+            <span class="devicons devicons-photoshop" title="Photoshop"></span>
+            <span class="devicons devicons-stackoverflow" title="yes."></span>
+            <span class="devicons devicons-atom" title="Atom Editor"></span>
+            <span class="devicons devicons-firefox" title="Furryfox"></span>
+        </p>
+    </section>
+    <div class="spacer wave1-b"></div>
+
+    <h2>Interested in knowing more?</h2>
+    <p>
+        Hit me up on Discord @BillyLovesSheep#7433 or check out my other stuff on <a
+            href="https://www.github.com/BillyDoesDev" target="_blank">my Github</a>.
+    </p>
+
+    <footer>
+        &lang;/&rang; with ❤<br>
+        &copy; BillyDoesDev 2022 | All rights reserved.
+    </footer>
+
+
+    <ul class="socials">
+        <a href="https://www.github.com/BillyDoesDev" target="_blank" class="icon"><span
+                class="devicons devicons-github_badge"></span></a>
+
+        <br>
+    </ul>
+</body>
+
+</html>
