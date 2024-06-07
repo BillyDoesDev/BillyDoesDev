@@ -93,14 +93,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="216.9982537063577" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="216.9982537063577" y="0" width="152.98505413510293" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="369.98330784146066" y="0" width="43.61061264798333" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="413.593920489444" y="0" width="19.405393036503558" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="432.9993135259475" y="0" width="11.204027314441246" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="444.20334084038876" y="0" width="8.887213517517132" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="453.0905543579059" y="0" width="3.627569761420158" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="456.7181241193261" y="0" width="3.281875880673949" height="8" fill="#f2a542"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="194.3317895808572" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="194.3317895808572" y="0" width="137.00506267404964" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="331.33685225490683" y="0" width="58.08282767710192" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="389.41967993200876" y="0" width="39.05528388292216" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="428.4749638149309" y="0" width="17.37841061802588" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="445.85337443295674" y="0" width="7.958903252665615" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="453.8122776856224" y="0" width="3.2486534408711165" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="457.06093112649353" y="0" width="2.9390688735064896" height="8" fill="#f2a542"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -117,6 +117,12 @@
                     </div>
                     <div class="field center no-wrap language">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                            <path fill="#e34c26" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                        </svg>
+                        HTML
+                    </div>
+                    <div class="field center no-wrap language">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                             <path fill="#3572A5" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                         </svg>
                         Python
@@ -126,12 +132,6 @@
                             <path fill="#89e051" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                         </svg>
                         Shell
-                    </div>
-                    <div class="field center no-wrap language">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                            <path fill="#e34c26" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
-                        </svg>
-                        HTML
                     </div>
                     <div class="field center no-wrap language">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -1215,7 +1215,7 @@
                 <div class="row">
                     <section class="largeable-column-fields">
                         <div class="field" style="padding-left: 31px">
-                            <b style="color: #9D05DA">Your fortune: Very Bad Luck</b>
+                            <b style="color: #BAC200">Your fortune: Average Luck</b>
                         </div>
                     </section>
                 </div>
