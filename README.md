@@ -6,9 +6,6 @@
 
 ## ~/init.sh
 
-```sh
-cat intro.json
-```
 ```json
 {
     "Name": "Dhrubajyoti Mandal",
