@@ -17,7 +17,7 @@ jobs:
           base: repositories
 #           base: header, activity, community
 #           base: header, repositories
-          plugin_languages_ignored: ipynb
+          plugin_languages_ignored: ipynb, Jupyter Notebook
           plugin_gists: yes
           plugin_fortune: yes
           plugin_languages: yes
