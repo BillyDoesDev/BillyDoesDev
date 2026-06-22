@@ -15,12 +15,13 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           template: classic
           base: repositories
-#           base: header, activity, community
-#           base: header, repositories
+          # base: header, activity, community
+          # base: header, repositories
           plugin_languages_ignored: ipynb, Jupyter Notebook
           plugin_gists: yes
-          plugin_fortune: yes
+          # plugin_fortune: yes
           plugin_languages: yes
           plugin_lines: yes
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
+          plugin_introduction: yes
